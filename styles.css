@@ -1,0 +1,241 @@
+/* Add your CSS to this file */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    font-size: 18px; 
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+ .cards{ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+} 
+
+.cards .card{
+    border: solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #E2E8F0 ;
+}
+
+.card .card-body{
+    line-height:  1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    height: 210px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.cards h3{
+    color: #48BB78;
+    font-size: 21px; 
+}
+
+header .container{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 18px;
+    background-color: white;
+    padding-inline: 70px;
+}
+
+header h1{
+    font-size: 18px; 
+}
+
+ul{
+    text-align: right;
+    list-style: none;
+    padding-inline: 50px;
+}
+
+li{ 
+    display: inline-block;
+}
+
+header .container a{
+    color: #6b7280;
+    text-decoration:none;
+}
+
+header .container a:hover {
+	color: #5A67D8;
+}
+
+header .container a:link{
+    color: #5A67D8;
+    text-decoration:none;
+}
+
+.overview-hero .container img{
+    width:150px;
+    height: 150px;
+    float: left;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+.overview-hero .container {
+    background-color: #E2E8F0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.learn-about .container{
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.learn-about .container h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container img{
+    padding-top: 20px;
+    padding-left: 50px;
+    width:200px;
+    height: 200px;
+   
+}
+
+.stories .container img{
+    width:160px;
+    height: 160px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+.stories .container .article-body{
+    text-align:justify;
+}
+
+
+.stories .container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 10px;
+}
+
+.stories .container h3{
+    font-size: 18px;
+}
+
+.stories .container h2{
+    color: #5A67D8;
+}
+
+.stories .container a{
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.testing .container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    color: white;
+    background-color: #4A5568;
+    padding-top: 50px;
+    padding-bottom: 59px;
+    
+}
+.testing .container .testing-description{
+    float:left;
+    text-align: left;
+    
+}
+
+.testing .container .cta{
+    float:right;
+    text-align: center;
+    
+}
+
+.testing .container .cta .btn{
+    color: white;
+    border:  #48BB78 solid;
+    border-radius: 5px;
+    padding: 14px 25px;
+    background-color:  #48BB78;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.newsletter .container p{
+    padding-inline: 240px;
+    text-align: left;
+}
+
+.newsletter .container{
+    text-align: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: auto auto auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #48BB78;
+}
+
+.newsletter .container .form-group{
+    background-color: #48BB78;
+   
+}
+
+.newsletter .container .form-group #email{
+    width: 250px;
+    height: 43px;
+    border: solid white;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30%;
+}
+
+
+.newsletter .container button{
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 27%;
+    border: solid #5A67D8;
+    background-color: #5A67D8;
+}
+
+.newsletter .container .message{
+    display: flexbox;
+}
+footer .container{
+    background-color: #4A5568;
+    color: white;
+}
+
+footer .container p{
+    padding-left: 0px;
+}
+
